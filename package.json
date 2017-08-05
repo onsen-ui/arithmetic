@@ -1,0 +1,36 @@
+{
+  "name": "arithmetic",
+  "version": "0.0.1",
+  "description": "arithmetic operators",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "mocha --compilers ts:espower-typescript/guess test/**/*.ts"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onsen-ui/arithmetic.git"
+  },
+  "keywords": [],
+  "author": "'Onsen <'onsen03@gmail.com'> ('https://github.com/onsen-ui')",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onsen-ui/arithmetic/issues"
+  },
+  "homepage": "https://github.com/onsen-ui/arithmetic#readme",
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/power-assert": "^1.4.29",
+    "espower-typescript": "^8.0.2",
+    "mocha": "^3.5.0",
+    "power-assert": "^1.4.4",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
+  }
+}
