@@ -5,8 +5,10 @@
   "main": "./lib/index.js",
   "types": "./lib/main.d.ts",
   "scripts": {
+    "prebuild": "npm run typedoc",
     "build": "tsc -p ./",
-    "test": "mocha --compilers ts:espower-typescript/guess test/**/*.ts"
+    "test": "mocha --compilers ts:espower-typescript/guess test/**/*.ts",
+    "typedoc": "typedoc --out ./docs/ ./src/ --mode file"
   },
   "files": [
     "lib",
@@ -32,6 +34,7 @@
     "mocha": "^3.5.0",
     "power-assert": "^1.4.4",
     "tslint": "^5.5.0",
+    "typedoc": "^0.8.0",
     "typescript": "^2.4.2"
   }
 }

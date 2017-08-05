@@ -1,0 +1,3 @@
+﻿var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"128":"Class","2048":"Method"},"rows":[{"id":0,"kind":128,"name":"Arithmetic","url":"classes/arithmetic.html","classes":"tsd-kind-class"},{"id":1,"kind":2048,"name":"add","url":"classes/arithmetic.html#add","classes":"tsd-kind-method tsd-parent-kind-class tsd-is-static","parent":"Arithmetic"},{"id":2,"kind":2048,"name":"mul","url":"classes/arithmetic.html#mul","classes":"tsd-kind-method tsd-parent-kind-class tsd-is-static","parent":"Arithmetic"}]};
